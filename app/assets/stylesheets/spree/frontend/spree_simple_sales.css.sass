@@ -1,0 +1,19 @@
+@import 'spree/frontend/variables'
+
+span
+  &.price
+    &.old
+      color: grey
+      font-size: $product_detail_price_font_size * 0.8
+      font-weight: normal
+      text-decoration: line-through
+
+ul#products 
+  li 
+    .price
+      display: inline-block
+      &.old
+        color: grey
+        font-size: $product_list_price_font_size * 0.8
+        font-weight: normal
+        text-decoration: line-through
